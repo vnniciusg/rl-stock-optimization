@@ -4,7 +4,11 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "gymnasium>=1.2.0",
+    "matplotlib>=3.10.6",
+    "tqdm>=4.67.1",
+]
 
 [dependency-groups]
 dev = [
